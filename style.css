@@ -1,0 +1,143 @@
+html,
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    flex-direction: column;
+    align-items: center;
+}
+
+#image {
+    width: 100%;
+    height: 150px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.container,
+h2 {
+    font-family: serif;
+    color: black;
+}
+
+.container,
+p {
+    color: gray;
+    text-align: center;
+}
+
+#sub_text {
+    margin: 14px;
+}
+
+.sub_container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(DF, E6, FB);
+}
+
+.sub_container,
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.sub_container,
+h5 {
+    color: black;
+}
+
+.main_container {
+    display: flex;
+    width: 350px;
+    height: 500px;
+    flex-direction: column;
+    border: 1px solid gainsboro;
+    border-radius: 25px;
+    align-items: center;
+}
+
+#pay_box {
+    background-color: hsla(225, 100%, 94%, 0.329);
+    width: 80%;
+    height: 50px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+#icon_music_pay {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#pay_section_one {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    max-height: 45px;
+}
+
+#amount_to_pay {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    max-height: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#change {
+    text-decoration: underline;
+}
+
+#h5a {
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+
+#buttonX {
+    width: 75%;
+    height: 40px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px hsl(224, 90%, 92%);
+    margin-top: 30px;
+    color: white;
+    border-style: hidden;
+}
+
+#buttonX:hover {
+    background-color: hsl(225, 87%, 85%);
+}
+
+#cancel {
+    margin-top: 10px;
+    color: gray;
+    background-color: white;
+    border-style: hidden;
+}
+
+#cancel:hover {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#p1 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 11px;
+}
